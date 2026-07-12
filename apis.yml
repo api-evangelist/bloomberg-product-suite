@@ -62,6 +62,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/bloomberg-anywhere/
 common:
+- type: DomainSecurity
+  url: security/bloomberg-product-suite-domain-security.yml
 - type: Portal
   url: https://www.bloomberg.com/professional/
 - type: Documentation
