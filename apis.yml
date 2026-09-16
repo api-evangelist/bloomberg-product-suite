@@ -1,9 +1,9 @@
 aid: bloomberg-product-suite
 name: Bloomberg Product Suite
-description: Bloomberg's Product Suite encompasses the complete portfolio of Bloomberg professional products including
-  the Bloomberg Terminal, data products, analytics solutions, trading platforms, media, and technology infrastructure.
-  The suite serves financial professionals across asset management, banking, insurance, government, and corporate
-  sectors with integrated data, analytics, and workflow tools.
+description: Bloomberg's Product Suite encompasses the complete portfolio of Bloomberg professional products
+  including the Bloomberg Terminal, data products, analytics solutions, trading platforms, media, and
+  technology infrastructure. The suite serves financial professionals across asset management, banking,
+  insurance, government, and corporate sectors with integrated data, analytics, and workflow tools.
 type: Index
 deliveryModel:
   model: saas
@@ -31,7 +31,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-product-suite.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-product-suite/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-08-27'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
 - Product Suite
@@ -44,8 +44,8 @@ tags:
 apis:
 - aid: bloomberg-product-suite:blpapi
   name: Bloomberg Open API (BLPAPI)
-  description: The core API providing programmatic access to the Bloomberg data ecosystem including real-time prices,
-    reference data, news, analytics, and Terminal functions.
+  description: The core API providing programmatic access to the Bloomberg data ecosystem including real-time
+    prices, reference data, news, analytics, and Terminal functions.
   humanURL: https://bloomberg.github.io/blpapi-docs/
   baseURL: blpapi://localhost:8194
   tags:
@@ -57,8 +57,8 @@ apis:
     url: https://bloomberg.github.io/blpapi-docs/
 - aid: bloomberg-product-suite:data-license
   name: Bloomberg Data License
-  description: Enterprise bulk data delivery platform for acquiring Bloomberg reference data, pricing, corporate
-    actions, and analytics at scale for data management and downstream applications.
+  description: Enterprise bulk data delivery platform for acquiring Bloomberg reference data, pricing,
+    corporate actions, and analytics at scale for data management and downstream applications.
   humanURL: https://www.bloomberg.com/professional/products/data/data-management/data-license/
   baseURL: https://dlws.bloomberg.com
   tags:
@@ -70,8 +70,8 @@ apis:
     url: https://www.bloomberg.com/professional/products/data/data-management/data-license/
 - aid: bloomberg-product-suite:bloomberg-anywhere
   name: Bloomberg Anywhere
-  description: Remote access service extending Bloomberg Terminal capabilities to any internet-connected device,
-    enabling mobile and remote access to Bloomberg data, analytics, and messaging.
+  description: Remote access service extending Bloomberg Terminal capabilities to any internet-connected
+    device, enabling mobile and remote access to Bloomberg data, analytics, and messaging.
   humanURL: https://www.bloomberg.com/professional/solution/bloomberg-anywhere/
   baseURL: https://bba.bloomberg.net
   tags:
@@ -82,6 +82,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/bloomberg-anywhere/
 common:
+- type: Website
+  url: https://bloomberg.com
 - type: ParentCompany
   url: https://apis.io/providers/bloomberg/
   name: Bloomberg
