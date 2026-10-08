@@ -85,6 +85,12 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/bloomberg-anywhere/
 common:
+- type: Plans
+  url: plans/bloomberg-product-suite-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/bloomberg-product-suite-rate-limits.yml
+- type: FinOps
+  url: finops/bloomberg-product-suite-finops.yml
 - type: Website
   url: https://bloomberg.com
 - type: ParentCompany
